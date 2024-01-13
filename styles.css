@@ -115,6 +115,27 @@ ul li {
 }
 
 /* contato */
+
+input:valid {
+    color: #333;
+    border: #333;
+}
+
+input:invalid {
+    color:red;
+    border: red;
+}
+
+/* .error {
+    color:  #9370DB;
+    font-size: 0.75rem;
+    display: none;
+}
+
+input:invalid + .error {
+    display: block;
+} */
+
 .section-content p, h1, h2, h3, h4 {
     text-align: center;
 }
