@@ -126,13 +126,14 @@ input:invalid {
     border: red;
 }
 
-/* .error {
+.error {
     color:  #9370DB;
     font-size: 0.75rem;
     display: none;
 }
 
-input:invalid + .error {
+/* regra para mostrar mensagem de erro, corrigir pois está aprecendo mesmo com os campos sem preenchimento */
+/* input:invalid + span {
     display: block;
 } */
 
