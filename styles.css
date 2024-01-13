@@ -18,6 +18,7 @@ body {
     color: #333;
 }
 
+/* cabeçalho */
 header {
     background-color: #FFB6C1;
     padding: 20px;
@@ -39,13 +40,6 @@ header {
     margin-right: 10px;
     /* ajuste conforme necessário */
 }
-
-/* h1 excluído */
-/* header h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 3em;
-    margin: 0;
-}  */
 
 p {
     margin: 0;
@@ -97,6 +91,27 @@ ul li {
 
 .food-type {
     background-color: #40E0D0;
+}
+
+/* inicial */
+#photo-index-1, #photo-index-2 {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.section-content .first {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.section-content #first {
+    font-size: 0.8em;
+    text-align: start;
+    flex: 1;
 }
 
 /* contato */
