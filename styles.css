@@ -130,12 +130,12 @@ input:invalid {
     color:  #9370DB;
     font-size: 0.75rem;
     display: none;
+    margin-bottom: 10px;
 }
 
-/* regra para mostrar mensagem de erro, corrigir pois está aprecendo mesmo com os campos sem preenchimento */
-/* input:invalid + span {
+form input:invalid:not(:placeholder-shown) + .error {
     display: block;
-} */
+}
 
 .section-content p, h1, h2, h3, h4 {
     text-align: center;
