@@ -95,8 +95,57 @@ ul li {
     background-color: #40E0D0;
 }
 
-#contato {
+/* contato */
+.section-content p {
     text-align: center;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+
+
+.social-links .whatsapp {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap: 15px;
+}
+
+.social-links .others {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 50px;
+}
+
+.social-links .others .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+    ;
+    /* justify-content: space-between; */
 }
 
 form {
@@ -132,6 +181,7 @@ form button:hover {
 form button:active {
     background-color: #483D8B;
 }
+
 /* galeria removida */
 /* #galeria {
     background-color: #40E0D0;
@@ -139,32 +189,7 @@ form button:active {
     border-radius: 8px;
 } */
 
-.social-links {
-    display: inline-flex;
-    flex-direction: row;
-    gap: 15px;
-}
 
-.social-links img {
-    max-width: 50px;
-}
-
-.social-links .whatsapp{
-    flex-direction:column;
-    justify-content:flex-start;
-    align-items:normal;
-    text-align:start;
-    gap: 15px;
-   }
-
-.social-links .social{
-    flex-direction:column;
-    justify-content:center;
-    align-items:normal;
-    display:inline-flex;
-    text-align:;
-    gap: 15px;
-   }
 
 footer {
     background-color: #9370DB;
@@ -215,7 +240,8 @@ footer p {
     }
 
     .menu-icon {
-        display: block; /* Exibe o ícone de menu em telas pequenas */
+        display: block;
+        /* Exibe o ícone de menu em telas pequenas */
         cursor: pointer;
     }
 
@@ -254,8 +280,10 @@ footer p {
 
     /* form */
     form button {
-        margin: 0; /* Remover a margem automática */
-        padding: 10px 20px; /* Reduzir o preenchimento */
+        margin: 0;
+        /* Remover a margem automática */
+        padding: 10px 20px;
+        /* Reduzir o preenchimento */
     }
 
     footer {
