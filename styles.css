@@ -27,16 +27,17 @@ body {
 
 /* cabeçalho */
 header {
+    
     background-color: #FFB6C1;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: block;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -308,13 +309,6 @@ footer p {
     }
 
 
-    nav .nav-content {
-        display: flex;
-        flex-direction: column;
-        font-size: 24px;
-        line-height: 34.5px;
-        /* display: none; */
-    }
 
     nav a {
         margin: 0 10px;
