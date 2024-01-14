@@ -34,8 +34,8 @@ body {
 /* cabeçalho */
 header {
     height: auto;
-    background-color: #FFB6C1;
-    padding: 15px;
+    background-color:#9370DB ;
+    /* padding: 15px; */
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -50,27 +50,34 @@ header {
 
 .header-content .logo {
     max-width: 100px;
+    background-color: ;
 }
 
 .header-content p {
     /* font-family: 'Josefin Sans', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
     font-size: 0.8rem;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     margin-right: 10%;
     max-width: 70%;
     margin-right: 5%;
-    line-height: 5%;
+    /* line-height: 5%; */
+    /* background-color: #9370DB; */
     color: #fff;
+    border-radius: 10px;
+    /* background-color: #9370DB; */
     /* color: #fff; */
     
 }
 
 
 nav {
-    background-color: #40E0D0;
+    /* background-color: #9370DB; */
+    background-color: #9370DB;
     color: #fff;
-    padding: 15px;
+    /* color: #483D8B; */
+    /* border-radius: 5px; */
+    /* padding: 15px; */
     text-align: center;
 }
 
