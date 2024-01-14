@@ -49,13 +49,13 @@ header {
 }
 
 .header-content .logo {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 .header-content p {
     /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 0.8rem;
     font-weight: bolder;
     margin-right: 10%;
     max-width: 70%;
