@@ -27,7 +27,7 @@ body {
 
 /* cabeçalho */
 header {
-    
+    height: auto;
     background-color: #FFB6C1;
     padding: 10px;
     color: #fff;
@@ -39,6 +39,7 @@ header {
     flex-direction: block;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
