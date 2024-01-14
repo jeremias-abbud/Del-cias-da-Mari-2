@@ -53,7 +53,7 @@ header {
 }
 
 .header-content p {
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: bolder;
@@ -61,7 +61,7 @@ header {
     max-width: 70%;
     margin-right: 5%;
     line-height: 5%;
-    color: #000000;
+    color: #fff;
     /* color: #fff; */
     
 }
