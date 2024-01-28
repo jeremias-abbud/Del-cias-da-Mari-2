@@ -337,7 +337,7 @@ footer p {
         cursor: pointer;
     }
 
-    #cardapio ul li>img {
+    #cardapio ul li img {
         max-width: 100%;
     }
 
@@ -348,4 +348,13 @@ footer p {
     }
 
 
+}
+
+@media (min-width: 577px) {
+    #cardapio ul li {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        
+    }
 }
