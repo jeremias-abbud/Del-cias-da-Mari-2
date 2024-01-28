@@ -12,6 +12,12 @@ body {
     box-sizing: border-box;
     background-color: #fff;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* min-height: 100vh; */
+    /* display: flex;
+    flex-direction: column; */
 
 }
 
@@ -60,16 +66,13 @@ header h1 {
 
 .header-content {
     display: flex;
-    /* flex-direction: block; */
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
-    /* flex-wrap: wrap; */
 }
 
 .header-content .logo {
     max-width: 50px;
-    /* background-color: ; */
 }
 
 .header-content p {
@@ -110,7 +113,10 @@ nav a:hover {
 }
 
 main {
+    flex: 1;
     margin-top: 100px;
+    margin-bottom: 100px;
+    /* padding-top: 100px; */
 }
 
 section {
@@ -312,8 +318,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 15px;
-    position: relative;
-    bottom: 0;
     width: 100%;
 }
 
