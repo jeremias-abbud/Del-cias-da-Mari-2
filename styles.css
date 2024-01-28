@@ -13,10 +13,6 @@ body {
     background-color: #fff;
     color: #333;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: normal;
-    flex-wrap: wrap;
 }
 
 p {
@@ -114,7 +110,7 @@ nav a:hover {
 }
 
 main {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 section {
@@ -136,7 +132,7 @@ ul {
 ul li {
     /* background-color: #f60; */
     /* border: 3px solid orange; */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     padding: 5px;
     border-radius: 8px;
     font-size: 0.9em;
@@ -162,10 +158,17 @@ ul li {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0 auto;
 } */
-
+/* 
 #cardapio ul {
     display: flex;
     flex-direction: column;
+} */
+
+#cardapio .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    max-width: 100%;
 }
 
 #cardapio li {
@@ -332,10 +335,10 @@ footer p {
         justify-content: center;
     }
 
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
+    /* #cardapio .container {
+        display: flex;
+        flex-direction: column;
+    } */
 
     #cardapio ul li img {
         max-width: 100%;
@@ -350,11 +353,21 @@ footer p {
 
 }
 
-@media (min-width: 577px) {
+
+/* @media (min-width: 577px) {
     #cardapio ul li {
         max-width: 70%;
         margin: 0 auto;
         margin-bottom: 15px;
         
     }
+} */
+
+@media  (min-width: 900px) {
+    #cardapio .container {
+        display: flex;
+        justify-content: center;
+    }
+
 }
+    
